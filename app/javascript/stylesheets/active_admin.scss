@@ -11,7 +11,7 @@
 @import "~@activeadmin/activeadmin/src/scss/mixins";
 @import "~@activeadmin/activeadmin/src/scss/base";
 
-+ @import './admin_flat_skin/active_admin_flat_skin.scss';
+@import './admin_flat_skin/active_admin_flat_skin.scss';
 
 // Overriding any non-variable Sass must be done after the fact.
 // For example, to change the default status-tag color:
