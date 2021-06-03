@@ -9,10 +9,9 @@ ActiveAdmin.register Reward do
   #
   # or
   #
-  # permit_params do
-  #   permitted = [:name, :description, :terms, :value]
-  #   permitted << :other if params[:action] == 'create' && current_user.admin?
-  #   permitted
-  # end
+  permit_params do
+  permitted = [:name, :description, :terms, :value]
+
+  end
   
 end
